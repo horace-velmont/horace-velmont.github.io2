@@ -2,9 +2,9 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  pathPrefix: '/horace-velmont',
+  pathPrefix: '/',
   title: 'Blog by Horace Velmont',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: '3년차 서버 개발자. Interest in java/php & scala.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about'Pellentesque odio nisi,
     },
     {
       label: 'Contact me',
