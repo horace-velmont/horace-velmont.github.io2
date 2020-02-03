@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'Pellentesque odio nisi,
+      path: '/pages/about'
     },
     {
       label: 'Contact me',
