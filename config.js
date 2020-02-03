@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Horace Velmont',
-  subtitle: '3년차 서버 개발자. Interest in java/php & scala.',
+  subtitle: 'Programmer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'DaeHoon Kim (Velmont)',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '3년차 서버 개발자. Interest in java/php & scala.',
     contacts: {
       email: '',
       facebook: '#',
