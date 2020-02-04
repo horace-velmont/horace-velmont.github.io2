@@ -3,6 +3,15 @@
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
+const path = require('path');
+const dotenv = require('dotenv');
+if (process.env.NODE_ENV === 'production') {
+  dotenv.config({ path: path.join(__dirname, '.env') })
+} else if (process.env.NODE_ENV === 'development') {
+  dotenv.config({ path: path.join(__dirname, '.env.dev') })
+  console.log("dev", process.env.CONTENTFUL_ACCESS_TOKEN);
+}
+
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
@@ -193,8 +202,9 @@ module.exports = {
     {
         resolve: `gatsby-source-contentful`,
         options: {
+            host: `preview.contentful.com`,
             spaceId: `jinwgtqv79ns`,
-            accessToken: `buYNPeFYMbcthIFDgR5Wdn9xCqTNkWOpe5BP93ABCaY`
+            accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
         }
     },
     'gatsby-plugin-offline',
