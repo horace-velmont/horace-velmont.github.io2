@@ -35,7 +35,7 @@ module.exports = {
   author: {
     name: 'DaeHoon Kim (Velmont)',
     photo: '/photo.jpg',
-    bio: '3년차 서버 개발자. Interest in java/php & scala.',
+    bio: 'Junior server developer. Interested in java/php & scala.',
     contacts: {
       email: '',
       facebook: '#',
