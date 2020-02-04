@@ -190,6 +190,13 @@ module.exports = {
         icon: 'static/photo.jpg'
       },
     },
+    {
+        resolve: `gatsby-source-contentful`,
+        options: {
+            spaceId: `jinwgtqv79ns`,
+            accessToken: `buYNPeFYMbcthIFDgR5Wdn9xCqTNkWOpe5BP93ABCaY`
+        }
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',

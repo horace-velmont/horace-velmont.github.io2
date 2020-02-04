@@ -20,12 +20,16 @@ module.exports = {
       path: '/pages/tech'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'News',
+      path: '/pages/news'
     },
     {
       label: 'Portfolio',
       path: '/pages/portfolio'
+    },
+    {
+      label: 'About me',
+      path: '/pages/about'
     }
   ],
   author: {
