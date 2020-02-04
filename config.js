@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://horace-velmont.github.io',
   pathPrefix: '/',
   title: 'Blog by Horace Velmont',
   subtitle: 'Programmer',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
+  disqusShortname: 'velmont',
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -16,12 +16,16 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'Tech',
+      path: '/pages/tech'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Portfolio',
+      path: '/pages/portfolio'
     }
   ],
   author: {
@@ -33,7 +37,7 @@ module.exports = {
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: '#horace-velmont',
       rss: '',
       vkontakte: '',
       linkedin: '#',
